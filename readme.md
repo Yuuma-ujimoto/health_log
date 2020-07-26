@@ -33,8 +33,6 @@ create table health_data(
 
 );
 
------
-
 create table exercise_data(
 
   int exercise_id auto increment,
