@@ -1,0 +1,52 @@
+
+  body{
+    margin:0;
+  }
+  main{
+    width: 900px;
+    height: auto;
+  }
+
+  .log-box{
+    display: none;
+    justify-content: space-between;
+    width: 500px;
+    border: solid 5px black;
+    margin: 10px;
+    align-items: center;
+  }
+  select,input,button{
+    width: 150px;
+    height: 30px;
+    padding: 0;
+
+    background-color: #eee;
+    border:solid 1px #000;
+    border-radius: 5px;
+  }
+  
+  .section{
+    width: 600px;
+    margin:25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .active-tab{
+    display: flex;
+  }
+  
+  .input-wrap{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #exercise_log{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .log-box{
+    width: 600px;
+  }
